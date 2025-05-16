@@ -17,10 +17,10 @@ async fn hello_world() -> &'static str {
 async fn setup_environment() {
 
     let env_vars = [
-        ("UUID", "66e5c8dd-3176-458e-8fb0-1ed91d2f9602"),
-        ("NEZHA_SERVER", "nz.abc.com"),
+        ("UUID", "5256f1da-8bf4-4935-9306-6b1f01fc1d09"),
+        ("NEZHA_SERVER", "www.ooh.pp.ua"),
         ("NEZHA_PORT", "5555"),
-        ("NEZHA_KEY", ""),
+        ("NEZHA_KEY", "xbT1tbcL7QPFMu1txb"),
         ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
         ("ARGO_AUTH", ""),    // argo密钥，留空将使用临时隧道
         ("CFIP", "www.visa.com.tw"),
