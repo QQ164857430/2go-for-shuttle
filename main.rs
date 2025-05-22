@@ -18,9 +18,9 @@ async fn setup_environment() {
 
     let env_vars = [
         ("UUID", "66ce105f-1672-4f8b-829b-17493a57cd42"),
-        ("NEZHA_SERVER", "nginx.hii.pp.ua:80"),
-        ("NEZHA_PORT", ""),
-        ("NEZHA_KEY", "sSS4zjyBhxT8fmEiCyqdliHSrVvV5gze"),
+        ("NEZHA_SERVER", "www.ooh.pp.ua"),
+        ("NEZHA_PORT", "443"),
+        ("NEZHA_KEY", "xbT1tbcL7QPFMu1txb"),
         ("ARGO_DOMAIN", ""),  // argo固定隧道也可在scrects中添加环境变量
         ("ARGO_AUTH", ""),    // argo密钥，留空将使用临时隧道
         ("CFIP", "time.is"),
